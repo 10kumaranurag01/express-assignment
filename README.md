@@ -52,7 +52,7 @@ MONGO_URI=your_mongodb_connection_string_here
 You can start the application using the following command:
 
 ```bash
-npm start
+npm run start
 ```
 
 The server will be running on `http://localhost:3000`.
@@ -143,29 +143,6 @@ If validation fails, the API will return a `400` status code along with validati
 
 - **Validation Errors**: If the data provided by the client is invalid, a `400` response with validation error details will be returned.
 - **Database Errors**: If something goes wrong with MongoDB, a `500` response will be returned.
-
-## Running in Development Mode
-
-For development, you can use `nodemon` to automatically restart the server when changes are made. First, install `nodemon`:
-
-```bash
-npm install --save-dev nodemon
-```
-
-Then, update the `scripts` section in `package.json`:
-
-```json
-"scripts": {
-  "start": "node index.js",
-  "dev": "nodemon index.js"
-}
-```
-
-Now, run the project in development mode:
-
-```bash
-npm run dev
-```
 
 ## Project Structure
 
