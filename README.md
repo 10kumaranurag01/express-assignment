@@ -182,19 +182,3 @@ my-express-app/
 ├── package.json        # Project configuration and dependencies
 └── README.md           # Project documentation
 ```
-
-## License
-
-This project is licensed under the MIT License.
-```
-
-### Explanation of Sections:
-1. **Prerequisites**: Lists the software needed before starting.
-2. **Getting Started**: Details how to clone the repository, install dependencies, and set up environment variables.
-3. **API Endpoints**: Provides detailed information on the CRUD operations, including sample requests and responses.
-4. **Input Validation**: Briefly explains the Zod validation used.
-5. **Error Handling**: Outlines how errors are handled in the app.
-6. **Running in Development Mode**: Suggests using `nodemon` for development.
-7. **Project Structure**: Provides an overview of the file structure.
-
-Feel free to customize the instructions or details specific to your project!
